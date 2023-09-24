@@ -16,6 +16,7 @@ set scrolloff=8
 set nocompatible
 set hidden
 
+
 " bullets.vim
 let g:bullets_enabled_file_types = ['markdown']
 
