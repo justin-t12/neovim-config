@@ -46,4 +46,19 @@ hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
     vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
 end)
 
-require("ibl").setup { indent = { highlight = highlight } }
+vim.opt.list = true
+vim.opt.listchars:append("space:⋅")
+vim.opt.listchars:append("eol:󱞣")
+
+require("ibl").setup{
+       debounce = 100,
+       indent = {
+           highlight = highlight,
+           tab_char = "·",
+       },
+       whitespace = {
+           --highlight = { "Whitespace", "NonText", "Function", "Label" },
+       },
+       scope = { exclude = { language = { "lua" } } },
+}
+

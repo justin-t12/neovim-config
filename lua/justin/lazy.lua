@@ -35,7 +35,7 @@ require("lazy").setup ({
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     {'mbbill/undotree'},
     {'tpope/vim-fugitive'},
-    {'lukas-reineke/indent-blankline.nvim'},
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
     {'windwp/nvim-autopairs'},
     {'BurntSushi/ripgrep'},
     {'christoomey/vim-tmux-navigator'},
