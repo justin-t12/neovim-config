@@ -42,5 +42,6 @@ require("lazy").setup ({
     {'sharkdp/fd'},
     {'lervag/vimtex'},
     {'justinmk/vim-sneak'},
+    { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true}
 })
 
