@@ -43,6 +43,7 @@ require("lazy").setup ({
     {'lervag/vimtex'},
     {'justinmk/vim-sneak'},
     { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true},
-    {'NTBBloodbath/doom-one.nvim'}
+    {'NTBBloodbath/doom-one.nvim'},
+    { "EdenEast/nightfox.nvim" }, 
 })
 
