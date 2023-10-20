@@ -1,4 +1,8 @@
 
+vim.opt.showmode = false
+
+vim.opt.clipboard = unnamed
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
