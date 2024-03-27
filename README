@@ -1,0 +1,8 @@
+# Neovim
+
+This is my personal Neovim config
+
+## Requirements
+- vim-plug
+- node.js
+- ripgrep
